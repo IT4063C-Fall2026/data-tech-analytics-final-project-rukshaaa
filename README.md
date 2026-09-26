@@ -31,20 +31,7 @@
 
 ### Data Sources
 
-1. **U.S. Census Bureau ACS 5-Year API** (API) — city-level population, median household
-   income, poverty count, unemployment count, median gross rent, and educational
-   attainment. Pulled via `Dataset3.py`.
-2. **FBI/city crime data** (file, `crime_data.json`) — violent crime rate, murder rate,
-   property crime rate by city.
-3. **National Transit Database** (file, `transit_data.csv`) — ridership and service stats
-   by transit agency/city.
-4. **Bureau of Labor Statistics API** (API) — national monthly CPI and unemployment rate,
-   used as a macroeconomic backdrop. Pulled via `dataset4.py`.
-
-**How they relate:** the Census, crime, and transit datasets all share a **city + state**
-key and will be merged on that. The BLS dataset has no city column and will instead be
-joined by **year**, to show how city-level trends compare against the national economic
-picture over time.
+See `source.ipynb` for the full list of data sources, how they relate, and the code that loads them.
 
 ## Self Assessment and Reflection
 
