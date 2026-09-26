@@ -2,17 +2,6 @@
 
 ## Project Overview
 
-I'm exploring what factors contribute to quality of life across U.S. cities. People often
-compare cities based on cost of living, job opportunities, safety, education, transportation,
-and housing — but I want to use data to see how these factors actually vary and relate to
-each other. This matters because where someone lives affects their finances, career
-opportunities, education access, and overall wellbeing. Using data gives a more objective
-way to compare cities than anecdote or reputation alone.
-
-The scope of this project focuses on a selection of U.S. cities for which consistent data
-is available. Rather than declaring one city objectively "best," I want to explore the
-different factors that contribute to quality of life and identify patterns across cities.
-
 ### Project Questions
 
 1. **How do housing costs relate to median household income across cities?**
