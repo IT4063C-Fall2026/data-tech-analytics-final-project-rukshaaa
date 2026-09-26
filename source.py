@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # {Project Title}📝
+# # {Quality-of-Life, Infrastructure and Economics Analysis Across U.S. Cities}📝
 # 
 # ![Banner](./assets/banner.jpeg)
 # 
@@ -69,7 +69,7 @@
 # housing cost, unemployment, crime, and transit access.
 # 
 
-# In[2]:
+# In[7]:
 
 
 import pandas as pd
@@ -78,9 +78,9 @@ bls_df = pd.read_csv("bls_economic_data.csv")
 census_df = pd.read_csv("census_city_demographics.csv")
 city_index_df = pd.read_csv("city-index.csv")
 
-bls_df.head()
-census_df.head()
-city_index_df.head()
+display(bls_df.head())
+display(census_df.head())
+display(city_index_df.head())
 
 
 # ## Resources and References
@@ -109,7 +109,7 @@ city_index_df.head()
 
 
 
-# In[ ]:
+# In[3]:
 
 
 # ⚠️ Make sure you run this cell at the end of your notebook before every submission!

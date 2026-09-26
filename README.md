@@ -72,7 +72,7 @@ Successfully identifying three distinct datasets across two different ingestion 
 
 #### What did not go well?
 
-Setting up the API authentication for the Census Bureau required key activation troubleshooting.
+I ran into an issue where I accidentally had two separate Git folders — one inside theother. I had cloned my actual GitHub repo into a subfolder, but then created a second,separate Git repo in the folder above it by accident. This caused confusion because whenI tried to push my changes, only some files were being tracked and pushed, while others (like my README edits) were sitting in the wrong repo and not showing up on GitHub. I had to move all my files into the correct cloned repo folder and push everything from there to fix it.
 
 #### What did you learn?
 
@@ -80,7 +80,7 @@ I learned how to query REST APIs programmatically using Python `requests`, parse
 
 #### What would you do differently next time?
 
-I would set up virtual environments and handle data cleaning functions in modular Python scripts earlier in the workflow to streamline dataset integration from the start.
+Next time, I would set up my project environment and write my data-cleaning code earlier in the process, instead of doing it later. That would make it easier to combine my datasets from the start.
 
 ---
 
